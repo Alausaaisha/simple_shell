@@ -1,14 +1,14 @@
 #include "shell.h"
 
 /**
- * **parse_input_string - splits the string entered by the user.
- * @buffer: string to be split.
- * Return: splitted string.
- */
+  * **parse_input_string - splits the string entered by the user.
+  * @buffer: string to be split.
+  * Return: splitted string.
+  */
 char **parse_input_string(char *buffer)
 {
 	char **cmd = NULL;
-	char *token , *delimeter = " \n";
+	char *token, *delimeter = " \n";
 	int i;
 
 	cmd = malloc(sizeof(char *) * 1024);
@@ -17,7 +17,7 @@ char **parse_input_string(char *buffer)
 		perror("memory could not be allocated");
 		exit(EXIT_FAILURE);
 	}
-	tok = strtok(buffer, delimeter);
+	token = strtok(buffer, delimeter);
 	i = 0;
 	while (token != NULL)
 	{
