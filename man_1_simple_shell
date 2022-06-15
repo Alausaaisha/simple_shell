@@ -1,4 +1,4 @@
-imple shell "12 April 2021" "version 1.0" "Programmer's Manual"
+.TH Simple shell "15 June 2022" "version 1.0" "Programmer's Manual"
 
 .SH NAME
 .B Simple shell 
@@ -83,4 +83,4 @@ currently no options are supported
 .SH BUGS
 No Known Bugs
 .SH AUTHORS
-.E. Kiminza && N. Rotich
+.Alausat Aisha Opeyemi && Mustapha Muhammad Ibrahim
