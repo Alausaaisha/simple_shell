@@ -27,3 +27,4 @@ char **parse_input_string(char *buffer)
 	}
 	cmd[i] = NULL;
 	return (cmd);
+}
